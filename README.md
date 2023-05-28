@@ -28,13 +28,15 @@ The project implementation consists of the following steps:
 
 1. Loading and preprocessing the Iris dataset: The original Iris dataset is loaded and preprocessed, ensuring that the data is in a suitable format for analysis.
 
-2. Applying Principal Component Analysis (PCA): PCA is applied to the dataset, reducing the dimensionality and obtaining a transformed representation of the Iris samples.
+2. Data Visualization: The dataset has been visualized using various plots to see relationships and trends among the variables 
 
-3. Performing K-means Clustering: K-means clustering is performed on the transformed dataset, grouping the Iris samples into clusters based on their similarities in the reduced feature space.
+3. Applying Principal Component Analysis (PCA): PCA is applied to the dataset, reducing the dimensionality and obtaining a transformed representation of the Iris samples.
 
-4. Assigning Predicted Species Labels: Each individual Iris sample is assigned a predicted species label based on its proximity to the centroid of the corresponding cluster. The majority class label within each cluster is considered for prediction.
+4. Performing K-means Clustering: K-means clustering is performed on the transformed dataset, grouping the Iris samples into clusters based on their similarities in the reduced feature space.
 
-5. Evaluating Model Performance: The performance of the Iris species prediction model is evaluated using appropriate metrics, such as accuracy, precision, recall, and F1 score.
+5. Assigning Predicted Species Labels: Each individual Iris sample is assigned a predicted species label based on its proximity to the centroid of the corresponding cluster. The majority class label within each cluster is considered for prediction.
+
+6. Comparison: The performance of the Iris species prediction model is compared with the actual labels.
 
 ## Getting Started
 
